@@ -450,7 +450,7 @@
       "inScheme": "https://w3id.org/xapi/adb/"
     },
     {
-      "@id": "https://w3id.org/xapi/adb/verbs/initialized",
+      "@id": "http://adlnet.gov/expapi/verbs/initialized",
       "@type": "Verb",
       "scopeNote": {
         "en": "Used when the player starts a completable, for instance, a serious game or a level."
