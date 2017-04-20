@@ -1,0 +1,133 @@
+{
+  "@context": "http://xapi.vocab.pub/vocabulary/context.jsonld",
+  "@id": "https://w3id.org/xapi/ex-seriousgames",
+  "@type": "ConceptScheme",
+  "prefLabel": {
+    "en": "Ex Serious Games Vocabulary"
+  },
+  "created": {
+    "en": "2017-04-20"
+  },
+  "modified": {
+    "en": "2017-04-20"
+  },
+  "wasGeneratedBy": {
+    "name": {
+      "en": "xAPI Vocabulary Working Group"
+    }
+  },
+  "activity-types": [
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/session",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A play session."
+      },
+      "prefLabel": {
+        "en": "session"
+      },
+      "scopeNote": {
+        "en": "It starts when the player connects to the game and ends with the player disconnects."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/107160216-n"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/stage",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A designation for sequential levels."
+      },
+      "prefLabel": {
+        "en": "stage"
+      },
+      "scopeNote": {
+        "en": "Similar to waves or rounds."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/115315573-n"
+      }
+    }
+  ],
+  "extensions": [
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variableincrease",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A number to represent the increase in a variable value."
+      },
+      "prefLabel": {
+        "en": "variableincrease"
+      },
+      "scopeNote": {
+        "en": "Used to represent a change in a variable that has increased its previous value."
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variabledecrease",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A number to represent the decrease in a variable value."
+      },
+      "prefLabel": {
+        "en": "variabledecrease"
+      },
+      "scopeNote": {
+        "en": "sed to represent a change in a variable that has decreased its previous value."
+      }
+    }
+  ],
+  "verbs": [
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/set",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has set a value to the variable."
+      },
+      "prefLabel": {
+        "en": "set"
+      },
+      "scopeNote": {
+        "en": "Associated to a change in a variable during a gameplay."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200299677-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/increased",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has increased the vallue of a variable."
+      },
+      "prefLabel": {
+        "en": "pressed"
+      },
+      "scopeNote": {
+        "en": "Used when the player increases the value of some variable. "
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200156409-v"
+      }
+    }
+  ],
+  "references": [
+    {
+      "@id": "http://adlnet.gov/expapi/activities/question",
+      "@type": "ActivityType",
+      "scopeNote": {
+        "en": "Many serious games use the Q&A mechanic to assess players. This activity covers that."
+      },
+      "inScheme": "https://w3id.org/xapi/adl"
+    },
+    {
+      "@id": "http://adlnet.gov/expapi/verbs/completed",
+      "@type": "Verb",
+      "scopeNote": {
+        "en": "Always associated to completable activities."
+      },
+      "inScheme": "https://w3id.org/xapi/adl"
+    }
+  ]
+}
