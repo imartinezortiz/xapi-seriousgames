@@ -111,23 +111,5 @@
         "@id": "http://wordnet-rdf.princeton.edu/wn31/200156409-v"
       }
     }
-  ],
-  "references": [
-    {
-      "@id": "http://adlnet.gov/expapi/activities/question",
-      "@type": "ActivityType",
-      "scopeNote": {
-        "en": "Many serious games use the Q&A mechanic to assess players. This activity covers that."
-      },
-      "inScheme": "https://w3id.org/xapi/adl"
-    },
-    {
-      "@id": "http://adlnet.gov/expapi/verbs/completed",
-      "@type": "Verb",
-      "scopeNote": {
-        "en": "Always associated to completable activities."
-      },
-      "inScheme": "https://w3id.org/xapi/adl"
-    }
   ]
 }
