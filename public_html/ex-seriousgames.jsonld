@@ -43,7 +43,7 @@
         "en": "stage"
       },
       "scopeNote": {
-        "en": "Similar to waves or rounds."
+        "en": "Game sequential levels, similar to waves or rounds."
       },
       "closelyRelatedNaturalLanguageTerm": {
         "@id": "http://wordnet-rdf.princeton.edu/wn31/115315573-n"
@@ -74,7 +74,7 @@
         "en": "variabledecrease"
       },
       "scopeNote": {
-        "en": "sed to represent a change in a variable that has decreased its previous value."
+        "en": "Used to represent a change in a variable that has decreased its previous value."
       }
     }
   ],
@@ -102,7 +102,7 @@
         "en": "Indicates that the actor has increased the vallue of a variable."
       },
       "prefLabel": {
-        "en": "pressed"
+        "en": "increased"
       },
       "scopeNote": {
         "en": "Used when the player increases the value of some variable. "
