@@ -9,11 +9,11 @@
     "en": "2017-04-20"
   },
   "modified": {
-    "en": "2017-04-20"
+    "en": "2017-04-25"
   },
   "wasGeneratedBy": {
     "name": {
-      "en": "xAPI Vocabulary Working Group"
+      "en": "eUCM Research Group"
     }
   },
   "activity-types": [
@@ -48,33 +48,479 @@
       "closelyRelatedNaturalLanguageTerm": {
         "@id": "http://wordnet-rdf.princeton.edu/wn31/115315573-n"
       }
-    }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/combat",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A a fight or contest between individuals or groups."
+      },
+      "prefLabel": {
+        "en": "combat"
+      },
+      "scopeNote": {
+        "en": "In some games to represent fitght between characters."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/101173452-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/story-node",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Each of the elements in the story structure."
+      },
+      "prefLabel": {
+        "en": "story-node"
+      },
+      "scopeNote": {
+        "en": "Story nodes link to other story nodes to form the story structure."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/113934060-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/race",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A competition of speed."
+      },
+      "prefLabel": {
+        "en": "race"
+      },
+      "scopeNote": {
+        "en": "In many games, races are included as activities to be completed."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/107473244-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/completable",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Generic term for completables."
+      },
+      "prefLabel": {
+        "en": "completable"
+      },
+      "scopeNote": {
+        "en": "A completable with no special semantics."
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/reachable",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Generic term for reachables."
+      },
+      "prefLabel": {
+        "en": "reachable"
+      },
+      "scopeNote": {
+        "en": "A reachable with no special semantics."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/300019387-s"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/score",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Value indicating the level of success of the player in the game."
+      },
+      "prefLabel": {
+        "en": "score"
+      },
+      "scopeNote": {
+        "en": "It represent the result of player's in-game actions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/113615828-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/currency",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Value that represents players' currency in the game."
+      },
+      "prefLabel": {
+        "en": "currency"
+      },
+      "scopeNote": {
+        "en": "E.g., coins."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/113407086-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/variable",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Generic term for variables."
+      },
+      "prefLabel": {
+        "en": "variable"
+      },
+      "scopeNote": {
+        "en": "A variable with no special semantics."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/107285985-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/path",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "It represents each of the possible course of actions in a game."
+      },
+      "prefLabel": {
+        "en": "path"
+      },
+      "scopeNote": {
+        "en": "In non linerar gameplays."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/103905025-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/arena",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "The place where specific in-game situations take place."
+      },
+      "prefLabel": {
+        "en": "arena"
+      },
+      "scopeNote": {
+        "en": "E.g., the race in course in a race game, the stadium in a football game, a mini-game in Mario Party."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/102739516-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/alternative",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Generic term for alternatives."
+      },
+      "prefLabel": {
+        "en": "alternative"
+      },
+      "scopeNote": {
+        "en": "An alternative with no special semantics."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/105798949-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/mouse-button-1",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Main button in a mouse."
+      },
+      "prefLabel": {
+        "en": "mouse-button-1"
+      },
+      "scopeNote": {
+        "en": "It usually represents the left button."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/103799383-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/mouse-button-2",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Secondary button in a mouse."
+      },
+      "prefLabel": {
+        "en": "mouse-button-2"
+      },
+      "scopeNote": {
+        "en": "It usually represents the right button."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/103799383-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/touch-screen-n",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A touch screen, usually in a mobile device. N is the finger index (for multi touch)."
+      },
+      "prefLabel": {
+        "en": "touch-screen-n"
+      },
+      "scopeNote": {
+        "en": "Used to represent touch screens in mobile devices."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/104466078-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/UI",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A control within the UI."
+      },
+      "prefLabel": {
+        "en": "UI"
+      },
+      "scopeNote": {
+        "en": "Represents controls in the user interface."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/106587403-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/weapon",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Elements in the game that can be used in fighting."
+      },
+      "prefLabel": {
+        "en": "weapon"
+      },
+      "scopeNote": {
+        "en": "Players can interact with weapons in fights."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/104572661-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/vehicle",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Element that serves as a means of transportation."
+      },
+      "prefLabel": {
+        "en": "vehicle"
+      },
+      "scopeNote": {
+        "en": "Players can interact with vehicles to move in game scenes."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/104531608-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/memory",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Value to represent memory usage."
+      },
+      "prefLabel": {
+        "en": "memory"
+      },
+      "scopeNote": {
+        "en": "Value should be an absolute measure."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/103749767-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/CPU",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Value to represent CPU usage."
+      },
+      "prefLabel": {
+        "en": "CPU"
+      },
+      "scopeNote": {
+        "en": "Value should be a percentage measure."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/102998952-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/frame-rate",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Frame rate of the game at a given moment."
+      },
+      "prefLabel": {
+        "en": "frame-rate"
+      },
+      "scopeNote": {
+        "en": "Used by the game engine to log debug and performance data."
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/load-time",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Load time for a concrete task."
+      },
+      "prefLabel": {
+        "en": "load-time"
+      },
+      "scopeNote": {
+        "en": "Value should be in seconds."
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/info",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Relevent events with no meaningful consequences for the game."
+      },
+      "prefLabel": {
+        "en": "info"
+      },
+      "scopeNote": {
+        "en": "Used by the game engine to log some error in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/106646883-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/debug",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "A message with debug purposes."
+      },
+      "prefLabel": {
+        "en": "debug"
+      },
+      "scopeNote": {
+        "en": "Used by the game engine to log some error in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200200606-v"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/warning",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "An undesired happening in the game."
+      },
+      "prefLabel": {
+        "en": "warning"
+      },
+      "scopeNote": {
+        "en": "Used by the game engine to log some error in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/107238811-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/error",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Something that was not supposed to happen."
+      },
+      "prefLabel": {
+        "en": "error"
+      },
+      "scopeNote": {
+        "en": "Used by the game engine to log some error in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/107314187-n"
+      }
+     },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/critical",
+      "@type": "ActivityType",
+      "definition": {
+        "en": "Something that should never happen, and it is critical for the correct functioning of the game."
+      },
+      "prefLabel": {
+        "en": "critical"
+      },
+      "scopeNote": {
+        "en": "Used by the game engine to log some error in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/300653599-a"
+      }
+     }
   ],
   "extensions": [
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variableincrease",
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variable-value",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "It represents the value of a variable; it may be a number, string, boolean or object."
+      },
+      "prefLabel": {
+        "en": "variable-value"
+      },
+      "scopeNote": {
+        "en": "Used to represent that a variable has a new value."
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/device-button",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A value to represent a device button; it may be a number, string, boolean or object."
+      },
+      "prefLabel": {
+        "en": "device-button"
+      },
+      "scopeNote": {
+        "en": "Used to represent a device button."
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variable-increase",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A number to represent the increase in a variable value."
       },
       "prefLabel": {
-        "en": "variableincrease"
+        "en": "variable-increase"
       },
       "scopeNote": {
         "en": "Used to represent a change in a variable that has increased its previous value."
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variabledecrease",
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variable-decrease",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A number to represent the decrease in a variable value."
       },
       "prefLabel": {
-        "en": "variabledecrease"
+        "en": "variable-decrease"
       },
       "scopeNote": {
         "en": "Used to represent a change in a variable that has decreased its previous value."
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/measure-label",
+      "@type": "xapi:Extension",
+      "definition": {
+        "en": "A string to represent a measure label."
+      },
+      "prefLabel": {
+        "en": "measure-label"
+      },
+      "scopeNote": {
+        "en": "Used to represent labels of different game measures."
       }
     }
   ],
@@ -99,17 +545,190 @@
       "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/increased",
       "@type": "Verb",
       "definition": {
-        "en": "Indicates that the actor has increased the vallue of a variable."
+        "en": "Indicates that the actor has increased the value of a variable."
       },
       "prefLabel": {
         "en": "increased"
       },
       "scopeNote": {
-        "en": "Used when the player increases the value of some variable. "
+        "en": "Used when the player increases the value of some variable."
       },
       "closelyRelatedNaturalLanguageTerm": {
         "@id": "http://wordnet-rdf.princeton.edu/wn31/200156409-v"
       }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/decreased",
+      "@type": "Verb",
+      "definition": {
+        "en": "Indicates that the actor has decreased the value of a variable."
+      },
+      "prefLabel": {
+        "en": "decreased"
+      },
+      "scopeNote": {
+        "en": "Used when the player decreases the value of some variable."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200151509-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/touched",
+      "@type": "Verb",
+      "definition": {
+        "en": "The player touched (or clicked) a target inside the game world (e.g., an UI control)."
+      },
+      "prefLabel": {
+        "en": "touched"
+      },
+      "scopeNote": {
+        "en": "A value may be included as the optional position of the player touch/click. It should be in the game coordinates system."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/201208838-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/killed",
+      "@type": "Verb",
+      "definition": {
+        "en": "The player eliminated a target inside the game world."
+      },
+      "prefLabel": {
+        "en": "killed"
+      },
+      "scopeNote": {
+        "en": "A target e.g. a NPC was killed by the actor."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200479761-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/died-because",
+      "@type": "Verb",
+      "definition": {
+        "en": "The player lost a life/attempt."
+      },
+      "prefLabel": {
+        "en": "died-because"
+      },
+      "scopeNote": {
+        "en": "Due to some game action, player lost a life or decreased the number of attempts."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200355499-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/collected",
+      "@type": "Verb",
+      "definition": {
+        "en": "The player collected a target inside the game world."
+      },
+      "prefLabel": {
+        "en": "collected"
+      },
+      "scopeNote": {
+        "en": "The target may be some item in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/201383303-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/performed",
+      "@type": "Verb",
+      "definition": {
+        "en": "The player executed an action."
+      },
+      "prefLabel": {
+        "en": "performed"
+      },
+      "scopeNote": {
+        "en": "Specifically aimed for custom interactions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/201716563-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/began",
+      "@type": "Verb",
+      "definition": {
+        "en": "The complex interaction began. All subsequent interactions will belong to the compound interaction, until an ended action is emitted."
+      },
+      "prefLabel": {
+        "en": "began"
+      },
+      "scopeNote": {
+        "en": "Used for compound interactions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200346415-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/ended",
+      "@type": "Verb",
+      "definition": {
+        "en": "Marks the end of the complex interaction."
+      },
+      "prefLabel": {
+        "en": "ended"
+      },
+      "scopeNote": {
+        "en": "Used for compound interactions."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200353480-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/measured",
+      "@type": "Verb",
+      "definition": {
+        "en": "The game engine measured a value for a given performance metric."
+      },
+      "prefLabel": {
+        "en": "measured"
+      },
+      "scopeNote": {
+        "en": "Changes in values for different measures."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/200490773-v"
+      }
+    },
+    {
+      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/threw",
+      "@type": "Verb",
+      "definition": {
+        "en": "The action threw a game message."
+      },
+      "prefLabel": {
+        "en": "threw"
+      },
+      "scopeNote": {
+        "en": "Used to log some error in the game."
+      },
+      "closelyRelatedNaturalLanguageTerm": {
+        "@id": "http://wordnet-rdf.princeton.edu/wn31/201516062-v"
+      }
     }
+  ],
+  "references": [
+    {
+      "@id": "http://adlnet.gov/expapi/activities/attempt",
+      "@type": "ActivityType",
+      "scopeNote": {
+        "en": "E.g., remaining lives."
+      },
+      "inScheme": {
+        "@id": "https://w3id.org/xapi/adl"
+      }
+     }
   ]
+
 }
