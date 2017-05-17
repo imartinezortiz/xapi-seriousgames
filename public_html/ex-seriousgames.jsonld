@@ -1,6 +1,6 @@
 {
   "@context": "http://xapi.vocab.pub/vocabulary/context.jsonld",
-  "@id": "https://w3id.org/xapi/ex-seriousgames",
+  "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames",
   "@type": "ConceptScheme",
   "prefLabel": {
     "en": "Ex Serious Games Vocabulary"
@@ -18,7 +18,7 @@
   },
   "activity-types": [
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/session",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/session",
       "@type": "ActivityType",
       "definition": {
         "en": "A play session."
@@ -34,7 +34,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/stage",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/stage",
       "@type": "ActivityType",
       "definition": {
         "en": "A designation for sequential levels."
@@ -485,7 +485,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variable-increase",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/extensions/variableincrease",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A number to represent the increase in a variable value."
@@ -498,7 +498,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variable-decrease",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/extensions/variabledecrease",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A number to represent the decrease in a variable value."
@@ -526,7 +526,7 @@
   ],
   "verbs": [
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/set",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/set",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the actor has set a value to the variable."
@@ -542,7 +542,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/increased",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/increased",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the actor has increased the value of a variable."
