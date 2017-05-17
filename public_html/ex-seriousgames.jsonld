@@ -50,7 +50,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/combat",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/combat",
       "@type": "ActivityType",
       "definition": {
         "en": "A a fight or contest between individuals or groups."
@@ -66,7 +66,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/story-node",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/story-node",
       "@type": "ActivityType",
       "definition": {
         "en": "Each of the elements in the story structure."
@@ -82,7 +82,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/race",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/race",
       "@type": "ActivityType",
       "definition": {
         "en": "A competition of speed."
@@ -98,7 +98,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/completable",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/completable",
       "@type": "ActivityType",
       "definition": {
         "en": "Generic term for completables."
@@ -111,7 +111,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/reachable",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/reachable",
       "@type": "ActivityType",
       "definition": {
         "en": "Generic term for reachables."
@@ -127,7 +127,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/score",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/score",
       "@type": "ActivityType",
       "definition": {
         "en": "Value indicating the level of success of the player in the game."
@@ -143,7 +143,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/currency",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/currency",
       "@type": "ActivityType",
       "definition": {
         "en": "Value that represents players' currency in the game."
@@ -159,7 +159,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/variable",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/variable",
       "@type": "ActivityType",
       "definition": {
         "en": "Generic term for variables."
@@ -175,7 +175,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/path",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/path",
       "@type": "ActivityType",
       "definition": {
         "en": "It represents each of the possible course of actions in a game."
@@ -191,7 +191,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/arena",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/arena",
       "@type": "ActivityType",
       "definition": {
         "en": "The place where specific in-game situations take place."
@@ -207,7 +207,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/alternative",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/alternative",
       "@type": "ActivityType",
       "definition": {
         "en": "Generic term for alternatives."
@@ -223,7 +223,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/mouse-button-1",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/mouse-button-1",
       "@type": "ActivityType",
       "definition": {
         "en": "Main button in a mouse."
@@ -239,7 +239,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/mouse-button-2",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/mouse-button-2",
       "@type": "ActivityType",
       "definition": {
         "en": "Secondary button in a mouse."
@@ -255,7 +255,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/touch-screen-n",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/touch-screen-n",
       "@type": "ActivityType",
       "definition": {
         "en": "A touch screen, usually in a mobile device. N is the finger index (for multi touch)."
@@ -271,7 +271,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/UI",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/UI",
       "@type": "ActivityType",
       "definition": {
         "en": "A control within the UI."
@@ -287,7 +287,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/weapon",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/weapon",
       "@type": "ActivityType",
       "definition": {
         "en": "Elements in the game that can be used in fighting."
@@ -303,7 +303,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/vehicle",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/vehicle",
       "@type": "ActivityType",
       "definition": {
         "en": "Element that serves as a means of transportation."
@@ -319,7 +319,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/memory",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/memory",
       "@type": "ActivityType",
       "definition": {
         "en": "Value to represent memory usage."
@@ -335,7 +335,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/CPU",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/CPU",
       "@type": "ActivityType",
       "definition": {
         "en": "Value to represent CPU usage."
@@ -351,7 +351,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/frame-rate",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/frame-rate",
       "@type": "ActivityType",
       "definition": {
         "en": "Frame rate of the game at a given moment."
@@ -364,7 +364,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/load-time",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/load-time",
       "@type": "ActivityType",
       "definition": {
         "en": "Load time for a concrete task."
@@ -377,7 +377,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/info",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/info",
       "@type": "ActivityType",
       "definition": {
         "en": "Relevent events with no meaningful consequences for the game."
@@ -393,7 +393,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/debug",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/debug",
       "@type": "ActivityType",
       "definition": {
         "en": "A message with debug purposes."
@@ -409,7 +409,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/warning",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/warning",
       "@type": "ActivityType",
       "definition": {
         "en": "An undesired happening in the game."
@@ -425,7 +425,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/error",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/error",
       "@type": "ActivityType",
       "definition": {
         "en": "Something that was not supposed to happen."
@@ -441,7 +441,7 @@
       }
      },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/activity-types/critical",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/activity-types/critical",
       "@type": "ActivityType",
       "definition": {
         "en": "Something that should never happen, and it is critical for the correct functioning of the game."
@@ -459,7 +459,7 @@
   ],
   "extensions": [
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/variable-value",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/extensions/variable-value",
       "@type": "xapi:Extension",
       "definition": {
         "en": "It represents the value of a variable; it may be a number, string, boolean or object."
@@ -472,7 +472,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/device-button",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/extensions/device-button",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A value to represent a device button; it may be a number, string, boolean or object."
@@ -511,7 +511,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/extensions/measure-label",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/extensions/measure-label",
       "@type": "xapi:Extension",
       "definition": {
         "en": "A string to represent a measure label."
@@ -558,7 +558,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/decreased",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/decreased",
       "@type": "Verb",
       "definition": {
         "en": "Indicates that the actor has decreased the value of a variable."
@@ -574,7 +574,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/touched",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/touched",
       "@type": "Verb",
       "definition": {
         "en": "The player touched (or clicked) a target inside the game world (e.g., an UI control)."
@@ -590,7 +590,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/killed",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/killed",
       "@type": "Verb",
       "definition": {
         "en": "The player eliminated a target inside the game world."
@@ -606,7 +606,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/died-because",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/died-because",
       "@type": "Verb",
       "definition": {
         "en": "The player lost a life/attempt."
@@ -622,7 +622,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/collected",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/collected",
       "@type": "Verb",
       "definition": {
         "en": "The player collected a target inside the game world."
@@ -638,7 +638,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/performed",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/performed",
       "@type": "Verb",
       "definition": {
         "en": "The player executed an action."
@@ -654,7 +654,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/began",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/began",
       "@type": "Verb",
       "definition": {
         "en": "The complex interaction began. All subsequent interactions will belong to the compound interaction, until an ended action is emitted."
@@ -670,7 +670,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/ended",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/ended",
       "@type": "Verb",
       "definition": {
         "en": "Marks the end of the complex interaction."
@@ -686,7 +686,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/measured",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/measured",
       "@type": "Verb",
       "definition": {
         "en": "The game engine measured a value for a given performance metric."
@@ -702,7 +702,7 @@
       }
     },
     {
-      "@id": "https://w3id.org/xapi/ex-seriousgames/verbs/threw",
+      "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames/verbs/threw",
       "@type": "Verb",
       "definition": {
         "en": "The action threw a game message."
