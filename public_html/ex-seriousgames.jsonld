@@ -725,9 +725,7 @@
       "scopeNote": {
         "en": "E.g., remaining lives."
       },
-      "inScheme": {
-        "@id": "https://w3id.org/xapi/adl"
-      }
+      "inScheme": "https://w3id.org/xapi/adl"
      }
   ]
 
