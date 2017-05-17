@@ -3,7 +3,7 @@
   "@id": "https://rage.e-ucm.es/xapi/ex-seriousgames",
   "@type": "ConceptScheme",
   "prefLabel": {
-    "en": "Ex Serious Games Vocabulary"
+    "en": "(Experimental) Serious Games Vocabulary"
   },
   "created": {
     "en": "2017-04-20"
